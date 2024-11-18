@@ -44,12 +44,12 @@ function TeamPage() {
   };
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true, // Consider keeping infinite regardless of image count for a continuous feel
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
   };
 

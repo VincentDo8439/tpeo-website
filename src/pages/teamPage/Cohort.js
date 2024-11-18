@@ -167,9 +167,9 @@ function Cohort() {
         priority = Math.min(priority, 1);
       } else if (roleLower.includes("engineering director")) {
         priority = Math.min(priority, 2);
-      } else if (roleLower.includes("product director")) {
-        priority = Math.min(priority, 3);
       } else if (roleLower.includes("design director")) {
+        priority = Math.min(priority, 3);
+      } else if (roleLower.includes("product director")) {
         priority = Math.min(priority, 4);
       } else if (roleLower.includes("director")) {
         priority = Math.min(priority, 5);
